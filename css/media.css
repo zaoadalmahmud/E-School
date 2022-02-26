@@ -1,0 +1,33 @@
+@media (max-width: 991px){
+    .navbar-light .navbar-nav .nav-link{
+        margin-left: 0px !important;
+    }
+    .btn-signin {
+        padding: 10px 20px !important;
+        margin: auto !important;
+    }
+    .service_item img {
+        width: 50%;
+    }
+    .service {
+        padding: 0 !important;
+    }
+    .testimonial_p p{
+        margin-left: 20px;
+    }
+    .courses {
+        padding-bottom: 0px !important;
+    }
+  }
+@media (max-width: 767px) {
+    .banner-content {
+        padding: 20px 0 50px 0 !important;
+    }
+    .navbar-brand {
+        width: 40% !important;
+    }
+    .client {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+  }

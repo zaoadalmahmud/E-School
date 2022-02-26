@@ -1,0 +1,239 @@
+/* font-family: 'Poppins', sans-serif; 
+font-family: 'Roboto', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #F0FFF0;
+    ;
+}
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+
+        /* navbar css start */
+.navbar-brand{
+    width: 20%;
+}
+.btn-signin {
+    background: #21B573;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 33px;
+    width: 100px;
+}
+.btn-signin a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+    margin-left: 48px;
+    transition: .1s all ease-in-out;
+}
+.btn-signin:hover{
+    background-color: #18744a;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+        /* navbar css end */
+
+        /* header css start */
+
+header h1{
+    color: black;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+header h1 span{
+    color: #21B573;
+}
+header h5{
+   color: #FD511A;
+   font-size: 16px;
+   font-weight: 400;
+   margin: 0;
+   line-height: 24px;
+}
+header p{
+    color: #6C6B6B;
+    font-size: 16px;
+    line-height: 36px;
+}
+.btn-start{
+    background-color: #21B573;
+    padding: 12px 36px;
+    border-radius: 33px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-start:hover{
+    background-color: #18744a;
+    color: #fff;
+    margin-bottom: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.banner-content{
+    padding: 100px 0 50px 0;
+}
+
+        /* header css end */
+
+        /* Service css start */
+
+.service_item{
+    background-color: #F8FFFB;
+    text-align: center;
+    padding: 50px 0;
+    height: 310px;
+}
+.service_item img{
+    width: 30%;
+  
+}
+.service_item h2{
+    color: #413960;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 20px;
+}
+.service_item p{
+    margin: 0;
+    color: #585859;
+    line-height: 24px;
+}
+.service{
+    padding: 50px 0 100px 0;
+}
+.service_item:hover{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+        /* Service css end*/
+
+        /* course css start */
+
+.btn-course{
+    background: #21B573;
+
+    color: #fff;
+
+    padding: 0;
+
+    padding: 12px 28px;
+
+    border-radius: 33px;
+}
+.btn-course:hover{
+    background-color: #18744a;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.course-item{
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.course-item h1{
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 20px;
+}
+.course-item p{
+   color: #585859;
+   line-height: 24px;
+}
+.course-item ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.course-item ul li{
+    color: #585859;
+    line-height: 24px;
+}
+.course-item ul li i{
+    margin-right: 7px;
+}
+.courses{
+    padding-bottom: 50px;
+}
+
+        /* course css end */
+
+        /* testimonial css start */
+
+.client{
+    overflow: hidden;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+.test-section{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 127px;
+    margin-top: 81px;
+}
+.test-section img{
+    margin-right: 10px;
+}
+
+        /* testimonial css start */
+
+        /* footer css start */
+
+footer{
+    background: #282531;
+    color: #fff;
+    padding-top: 55px;
+}
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+footer ul{
+    
+    list-style: none;
+        
+    padding-bottom: 76px;
+}
+footer ul li{
+    font-weight: 400;
+    
+    font-size: 16px;
+        
+    line-height: 30px;
+}
+footer ul li:first-child{
+    font-weight: 700;
+    
+    font-size: 16px;
+        
+    line-height: 30px;
+}
+footer h5{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #CDCDCD;
+    padding-bottom: 27px;
+}
+
+        /* footer css end */
